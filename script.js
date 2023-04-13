@@ -1,4 +1,4 @@
-const linkButton = document.querySelectorAll(".icons");
+const linkButton = document.querySelectorAll(".icons,.share-icon");
 
 linkButton.forEach(link => {
   link.addEventListener("click", function (e) {
@@ -7,8 +7,6 @@ linkButton.forEach(link => {
     const getLink = e.target.parentElement.getAttribute("href");
     const copyLinkToClipBoard = navigator.clipboard.writeText(getLink);
 
-    alert("Link has been copied to clipboard");
+    alert("Your link copied to clipboard");
   })
 })
-
-

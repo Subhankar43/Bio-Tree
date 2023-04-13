@@ -27,7 +27,21 @@
     max-width: 600px;
     margin: 120px auto 0 auto;
   }
+
+  .share-button{
+    display: flex;
+    align-self: flex-end;
+    color: #fff;
+  }
   
+  .share-icon{
+    font-size: 35px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+
   .img-container{
     height: 96px;
     width: 96px;
@@ -78,4 +92,21 @@ p{
     margin-top: 6px;
     font-weight: 600;
   }
+  .footer .subhankar {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    padding-top: 60px;
+  }
   
+  .footer .subhankar a {
+    text-decoration: none;
+    background: linear-gradient(to right, #833AB4, #FD1D1D, #F77737, #FCAF45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+

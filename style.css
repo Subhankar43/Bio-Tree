@@ -28,20 +28,6 @@
     margin: 120px auto 0 auto;
   }
 
-  .share-button{
-    display: flex;
-    align-self: flex-end;
-    color: #fff;
-  }
-  
-  .share-icon{
-    font-size: 35px;
-    background-color: #222;
-    padding: 15px;
-    border-radius: 50%;
-    margin: 0 10px;
-  }
-
   .img-container{
     height: 96px;
     width: 96px;

@@ -1,3 +1,6 @@
+/* Don't forget to give the credit @Vortx*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 *{
@@ -10,7 +13,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     background-color: rgb(10,10,10);
-    background: url('background.jpg'); 
+    background: url('https://cdn.jsdelivr.net/gh/Subhankar43/Bio-Tree/background.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;

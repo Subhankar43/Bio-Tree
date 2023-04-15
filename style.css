@@ -25,21 +25,22 @@
     align-items: center;
     width: 80vw;
     max-width: 600px;
-    margin: 120px auto 0 auto;
+    margin: 120px auto 0 auto;  
   }
 
   .img-container{
     height: 96px;
     width: 96px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     background-color: white;
     border-radius: 50%;
   }
   
   h1{
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: white;
+   
   }
   
   .img{
@@ -48,7 +49,25 @@
     background-size: cover;
     
   }
+  .subhankar{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    padding-top: 2px;
+    margin-bottom: 1%;
+    
+  }
   
+  .name{
+    text-decoration: none;
+    background: linear-gradient(to right, #833AB4, #FD1D1D, #F77737, #FCAF45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .link-card{
     width: 100%;
     display: flex;
@@ -60,11 +79,11 @@
     border-radius:20px;
     color: rgb(240,240,240);
   }
-
-.link-card:hover {
+  .link-card:hover,.link-card:focus  {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.25s;
-    transform: scale(1.20);
-}
+    transform: scale(1.2);
+  }
+
 .icon{
   font-size: 40px;
 }
@@ -74,25 +93,40 @@
   }
 
 p{
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 6px;
     font-weight: 600;
-  }
-  .footer .subhankar {
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-    font-size: 25px;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-    padding-top: 60px;
-  }
-  
-  .footer .subhankar a {
-    text-decoration: none;
-    background: linear-gradient(to right, #833AB4, #FD1D1D, #F77737, #FCAF45);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+}
 
+@media (max-width: 768px) {
+  body {
+    overflow: scroll;  
+  }
+  .subhankar{
+    padding-top: 0px;
+  }
+  h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .img-container{
+    margin-bottom: 15px;
+  }
+}
+@media (hover: none), (hover: on-demand) {
+  .link-card:hover, .link-card:focus {
+    transform: none;
+  }
+}
+.share-button{
+  display: flex;
+  align-self: flex-end;
+  color: white;
+}
+
+.share-icon{
+  font-size: 35px;
+  background-color: #222;
+  padding: 15px;
+  border-radius: 50%;
+}
